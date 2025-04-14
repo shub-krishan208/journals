@@ -18,4 +18,6 @@ Needed to get this repo working up and running on github from my local directory
 
    The options being, delete one and keep other or keep both. I needed to *keep both*. So, I first **pulled** the repo contents (using: **git pull origin main --rebase**), and then pushed back.
 
-3. There was this authentication issue I faced while sending the push request, as it was my own repo,  I set up a PAT and tied it to the repo and used it for authentication (using an SSH key was also an option, but I *failed* tos et it up properly :P)
+2. There was this authentication issue I faced while sending the push request, as it was my own repo,  I set up a PAT and tied it to the repo and used it for authentication (using an SSH key was also an option, but I *failed* to set it up properly :P).
+
+   NOTE: The PAT key is only displayed once **while generation** after that, I **can't view** it again. So, must copy it somewhere safe.
