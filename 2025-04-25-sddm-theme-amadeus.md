@@ -2,7 +2,7 @@
 
 ## Issues
 1. The theme was built for qt5 but the version and sddm-greeter support i had was qt6.
-2. I wanted an Amadeus themed login screen and settled for this one sddm-theme-amadeus[https://github.com/Michal-Szczepaniak/sddm-theme-amadeus.git], but the look wasn't to my liking so I redesigned it a bit. (I have no idea how to change qml code and work do stuff for such designs)
+2. I wanted an Amadeus themed login screen and settled for this one [sddm-theme-amadeus](https://github.com/Michal-Szczepaniak/sddm-theme-amadeus.git), but the look wasn't to my liking so I redesigned it a bit. (I have no idea how to change qml code and work do stuff for such designs)
 3. Finally when I was done with tweaking the theme, it was time to apply it. But on reboot, the 'fallback theme'of sddm was loaded.
 
 ## Cause
@@ -14,4 +14,4 @@
 - To the problem '3', tricking sddm to run 'sddm-greeter-qt6' whenever prompted for 'sddm-greeter' worked. Simply created alink to the qt6 version of greeter with the relevant name in /usr/bin directory using the command: _sudo ln -s /usr/bin/sddm-greeter-qt6 /usr/bin/sddm-greeter_
 
 ## Plan
-Now, I wanna make an animated login screen with "amadeus-thene", similar to something like this guy's wallpaper-engine[https://steamcommunity.com/sharedfiles/filedetails/?id=2809050179] on steam.
+Now, I wanna make an animated login screen with "amadeus-thene", similar to something like this guy's [wallpaper-engine](https://steamcommunity.com/sharedfiles/filedetails/?id=2809050179) on steam.
