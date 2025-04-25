@@ -9,7 +9,7 @@ I installed chatgpt-desktop using snap and had problems in sign in so removed it
 - '2025-04-14T17:32:04.824206+05:30 workpool env[5261]: [5261:0414/173204.824198:ERROR:address_tracker_linux.cc(447)] Failed to recv from netlink socket: Permission denied (13) ' repeated in syslog
 
 ## Cause:
-chatgpt-desktop corrupted installation using snap
+chatgpt-desktop corrupted installation using snap.
 
 ## Fix:
 - looking at the PID of the process, '5261' *number after the env[5261]*
